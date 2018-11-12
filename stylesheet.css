@@ -163,7 +163,7 @@ header .logo{
 @media(max-width:1000px){
 
 }
-@media(max-width:640px){
+@media screen and (min-width: 0px) and (max-device-width: 640px){
   *{
     box-sizing: border-box;
   }
