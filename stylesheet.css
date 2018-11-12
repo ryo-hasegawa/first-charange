@@ -21,6 +21,7 @@ header{
   color: white;
   z-index: 10;
 }
+
 .header-right{
   float: right;
 }
@@ -102,7 +103,6 @@ header .logo{
 
 .work-wrapper{
 
- height:580px;
  text-align:center;
 }
 .work-heading h2{
@@ -151,7 +151,9 @@ header .logo{
     font-size: 15px;
     margin: 0px 50px;
 }
-
+.clear{
+  clear: left;
+}
 
 
 /* ここからレスポンシブ対応 */
@@ -159,12 +161,63 @@ header .logo{
 
 @media (max-width:1000px) {
   body{
-    width: 125%;
+    width: 100%;
   }
 }
 /* スマートフォン */
 @media (max-width:670px) {
   body{
-    width: 125%;
+    width: 100%;
   }
+  .header-right{
+    display: none
+
+  }
+  #top-heading {
+    width: 100%;
+    padding: 79px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#top-heading h1 {
+    font-size: 29px;
+}
+#top-heading p {
+    font-size: 27px;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 13px;
+    color: white;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.work-heading h2 {
+    font-size: 30px;
+    color: gray;
+}
+.work-heading p {
+    line-height: 50px;
+    font-size: 13px;
+    color: gray;
+}
+.work-icon p {
+    width: 100%;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+}
+
+
 }
