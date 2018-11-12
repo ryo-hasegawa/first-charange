@@ -52,6 +52,7 @@ header .logo{
   padding-top:180px;
     padding-bottom:100px;
     background-image: url(IMG_1933.jpeg);
+    background-position: bottom;
     color:white;
     background-size:cover;
     position: relative;
@@ -186,5 +187,5 @@ header .logo{
     font-size: 23px;
     top: 60%;
   }
-  
+
 }
