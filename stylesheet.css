@@ -9,7 +9,7 @@ body{
     margin: 0px;
 }
 .container{
-  width: 1170px;
+  width: 100%;
    padding: 0 15px;
    margin: 0 auto;
 }
