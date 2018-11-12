@@ -166,6 +166,9 @@ header .logo{
 }
 /* スマートフォン */
 @media (max-width:670px) {
+  *{
+    box-sizing: border-box;
+  }
   body{
     width: 100%;
   }
