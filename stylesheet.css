@@ -159,5 +159,7 @@ header .logo{
 }
 /* スマートフォン */
 @media (max-width:670px) {
-
+  body{
+    width: 125%;
+  }
 }
