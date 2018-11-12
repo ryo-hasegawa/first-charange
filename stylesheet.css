@@ -152,6 +152,9 @@ header .logo{
 
 /* ここからレスポンシブ対応 */
 /* タブレット */
+*{
+  box-sizing: border-box;
+}
 @media (max-width:1000px) {
   body{
     width: 125%;
