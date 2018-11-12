@@ -147,3 +147,17 @@ header .logo{
     font-size: 15px;
     margin: 0px 50px;
 }
+
+
+
+/* ここからレスポンシブ対応 */
+/* タブレット */
+@media (max-width:1000px) {
+  body{
+    width: 125%;
+  }
+}
+/* スマートフォン */
+@media (max-width:670px) {
+
+}
