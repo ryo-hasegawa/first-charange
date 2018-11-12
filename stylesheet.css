@@ -172,9 +172,9 @@ header .logo{
   .header-right{
     display:none;
   }
-  .top-wrapper{
+  /* .top-wrapper{
     width:70%;
-  }
+  } */
   .top-wrapper h1{
     font-size: 28px;
   }
