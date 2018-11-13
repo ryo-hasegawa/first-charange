@@ -165,9 +165,8 @@ header .logo{
 @media screen and (max-width: 375px){
   *{
     box-sizing: border-box;
-    font-family:
   }
-body {
+ body{
     font-family: sans-serif;
     width: 100%;
     overflow-x: hidden;
