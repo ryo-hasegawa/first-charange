@@ -190,7 +190,7 @@ header .logo{
     top: 60%;
   }
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 367px){
   *{
     box-sizing: border-box;
   }
