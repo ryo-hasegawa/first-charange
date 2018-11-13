@@ -165,13 +165,18 @@ header .logo{
 @media screen and (max-width: 375px){
   *{
     box-sizing: border-box;
+    font-family:
+  }
+body {
+    font-family: sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
   }
   .header-right{
     display:none;
   }
-  /* .top-wrapper{
-    width:70%;
-  } */
+
   .top-wrapper h1{
     font-size: 28px;
   }
