@@ -26,7 +26,15 @@ header{
   color: white;
   z-index: 10;
 }
-
+.menu-icon{
+  display: none;
+  float: right;
+  font-size: 25px;
+  line-height: 65px;
+}
+.mobile-nav-menu{
+  display: none;
+}
 .header-right{
   float: right;
 }
@@ -218,6 +226,9 @@ footer p{
   .header-right{
     display:none;
   }
+  .menu-icon{
+    display: block;
+  }
   .top-wrapper{
     padding-top: 100px;
   }
@@ -269,6 +280,7 @@ footer p{
     margin-left: 5px;
   }
 }
+/* タブレット */
 @media(max-width:1000px){
   *{
     box-sizing: border-box;
@@ -276,9 +288,9 @@ footer p{
   .header-right{
     display:none;
   }
-  /* .top-wrapper{
-    width:70%;
-  } */
+  .menu-icon{
+    display: block;
+  }
   .top-wrapper h1{
     font-size: 28px;
   }
@@ -305,12 +317,12 @@ footer p{
     border-bottom: 1px solid #eee;
     padding-top: 0px;
     padding-bottom:20px;
-    height: 580px
+    height: 660px
 
   }
   .img-container img{
     box-shadow: 1px 1px 20px ;
-    width: 40%;
+    width: 25%;
     /* object-fit: cover; */
   }
   .profile-container{
