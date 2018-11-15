@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   -webkit-text-size-adjust:100%;
+  font-family:sans-serif;
 }
 
 body{
@@ -209,7 +210,7 @@ footer p{
     box-sizing: border-box;
   }
  body{
-    font-family: sans-serif;
+
     width: 100%;
     overflow-x: hidden;
     margin: 0px;
@@ -258,7 +259,7 @@ footer p{
     text-align: center;
     padding: 0;
     color: gray;
-    font-size: 10px;
+    font-size: 17px;
     line-height: 30px;
   }
   .profile-container a{
