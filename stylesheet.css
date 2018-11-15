@@ -228,6 +228,9 @@ footer p{
   }
   .menu-icon{
     display: block;
+    float: right;
+    line-height: 65px;
+    font-size: 25px
   }
   .top-wrapper{
     padding-top: 100px;
@@ -290,6 +293,9 @@ footer p{
   }
   .menu-icon{
     display: block;
+    float: right;
+    line-height: 65px;
+    font-size: 25px
   }
   .top-wrapper h1{
     font-size: 28px;
