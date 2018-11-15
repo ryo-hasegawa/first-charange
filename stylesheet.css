@@ -109,14 +109,14 @@ header .logo{
   text-decoration:none;
 
 }
-
+/* ワーク */
 .work-wrapper{
 
  text-align:center;
  border-bottom: 1px solid #eee;
  padding-bottom: 20px;
 }
-.work-heading h2{
+h2{
   font-size: 35px;
   color:gray;
 }
@@ -162,6 +162,35 @@ header .logo{
     font-size: 15px;
     margin: 0px 50px;
 }
+.block{
+  float: left;
+  width: 50%;
+}
+/* プロフィール */
+.profile-wrapper{
+  text-align:center;
+  /* border-bottom: 1px solid #eee; */
+  padding:20px 0;
+  height: 590px
+
+}
+.img-container img{
+  box-shadow: 1px 1px 20px ;
+}
+.profile-container{
+  text-align: left;
+  padding-right: 75px;
+  color:gray;
+  font-size: 16px;
+  line-height: 50px;
+}
+.profile-container a{
+  text-decoration: none;
+}
+.fa-external-link-alt{
+  margin-left: 5px;
+}
+/* フッター */
 footer{
   text-align: center;
 }
@@ -188,14 +217,16 @@ footer p{
   .header-right{
     display:none;
   }
-
+  .top-wrapper{
+    padding-top: 100px
+  }
   .top-wrapper h1{
     font-size: 28px;
   }
   #text{
     margin:10px 60px;
   }
-  .work-heading h2 {
+   h2 {
       font-size: 24px;
   }
   .work-heading p {
@@ -206,7 +237,36 @@ footer p{
     font-size: 23px;
     top: 60%;
   }
+  .block{
+    /* float: left; */
+    width: 100%;
+  }
+  .profile-wrapper{
+    text-align:center;
+    border-bottom: 1px solid #eee;
+    padding-top: 0px;
+    padding-bottom:20px;
+    height: 580px
 
+  }
+  .img-container img{
+    box-shadow: 1px 1px 20px ;
+    width: 40%;
+    /* object-fit: cover; */
+  }
+  .profile-container{
+    text-align: center;
+    padding: 0;
+    color: gray;
+    font-size: 10px;
+    line-height: 30px;
+  }
+  .profile-container a{
+    text-decoration: none;
+  }
+  .fa-external-link-alt{
+    margin-left: 5px;
+  }
 }
 @media(max-width:1000px){
   *{
