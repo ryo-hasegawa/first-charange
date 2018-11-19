@@ -218,7 +218,8 @@ footer p{
   width: 100%;
   position: absolute;
   /* text-align: center; */
-  text-align: center;
+  text-align: center
+
 }
 .content-wrapper h1{
   padding-bottom: 72px;
@@ -232,6 +233,10 @@ footer p{
 /* height: 332px; */
 margin: 10px;
 list-style: none;
+margin: 0 auto;
+}
+.inner{
+  padding: 0px;
 }
 .item{
   overflow: hidden;
