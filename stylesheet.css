@@ -23,7 +23,7 @@ max-width: 1170px;
 header{
   width: 100%;
   height:65px;
-  background-color:rgba(239, 239, 239, 0.28);
+  background-color:rgba(31, 31, 31, 0.45);
   position: fixed;
   color: white;
   z-index: 10;
@@ -48,7 +48,7 @@ header{
     /* margin: 23px; */
     word-spacing: 35px;
     font-size: 21px;
-
+    line-height: 65px;
 }
 .header-left{
   float: left;
@@ -212,6 +212,47 @@ footer p{
   color: gray;
 }
 
+/* デザインポートフォリオ */
+.content-wrapper{
+  top: 65px;
+  width: 100%;
+  position: absolute;
+  /* text-align: center; */
+  text-align: center;
+}
+.content-wrapper h1{
+  padding-bottom: 72px;
+  color: gray
+}
+.content-wrapper a{
+  text-decoration: none;
+}
+.content-wrapper ul li{
+  width: 235px;
+/* height: 332px; */
+margin: 10px;
+list-style: none;
+}
+.item{
+  overflow: hidden;
+  position: relative;
+}
+.item:hover img{
+  transition: 500ms;
+  display: block;
+  -webkit-filter: grayscale(100%) brightness(50%);
+}
+.item:hover:after {
+  content:attr(alt);
+  width: 100%;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* レスポンシブ設定 */
 @media screen and (max-width: 375px){
   *{
