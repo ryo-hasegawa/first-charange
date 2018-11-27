@@ -237,6 +237,50 @@ margin: 0 auto;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.profile-wrapper{
+  padding-top: 65px;
+    text-align: center;
+    height: -webkit-fill-available;
+    background-image: url(IMG_7353.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.profile-wrapper::before{
+	/* 透過した黒を重ねる */
+	background-color: rgba(0,0,0,0.2);
+	/* どの範囲に重ねるかを指定 */
+  z-index: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+.profile-wrapper .container{
+  position: relative;
+    z-index: 9;
+}
+.profile-wrapper .row{
+  padding: 200px 0px;
+}
+.profile-wrapper h2{
+  padding-top: 65px;
+  text-shadow: 5px 4px 15px rgb(0, 0, 0);
+  font-size: 64px;
+  color: white;
+  text-decoration: underline;
+}
+.profile-wrapper p{
+  color: white;
+  text-align: left;
+  font-size:18px;
+  font-weight: bold;
+}
+.profile-wrapper .btn-wrapper{
+  float: right;
+}
 /* レスポンシブ設定 */
 @media screen and (max-width: 375px){
   *{
@@ -442,5 +486,9 @@ margin: 0 auto;
   }
   .fa-external-link-alt{
     margin-left: 5px;
+  }
+  .profile-wrapper .row {
+      padding: 100px 0px;
+      display: block;
   }
 }
